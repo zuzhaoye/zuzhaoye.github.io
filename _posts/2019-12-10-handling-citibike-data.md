@@ -535,6 +535,10 @@ plt.xlabel('Time')
 |:--:| 
 | *Fig 3. How ridership splited among age groups* |
 
+| ![](/images/citibike/gender.png){:width="600px"} | 
+|:--:| 
+| *Fig 3. How ridership splited among age groups* |
+
 | ![](/images/citibike/age.png){:width="600px"} | 
 |:--:| 
 | *Fig 3. How ridership splited among age groups* |
