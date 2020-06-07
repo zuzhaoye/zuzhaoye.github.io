@@ -1,6 +1,6 @@
 ---
 title: Handling Citibike Data
-date: 2020-06-07 16:00:00 -0500
+date: 2020-06-06 16:00:00 -0500
 categories: [Tech Blog, Operation Demo]
 tags: [github page]
 ---
