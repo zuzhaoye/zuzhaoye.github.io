@@ -8,23 +8,51 @@
 -
   name: Home
   icon: "fas fa-home"
+
 -
-  name: Categories
-  icon: "fas fa-stream"
+  name: "Resume"
+  icon: "fas fa-resume"
   path: tabs
-  url: categories
+  url: resume
+  
 -
-  name: "Tags"
-  icon: "fas fa-tags"
-  path: tabs
-  url: tags
+  name: "Tech Blog"
+  icon: "fas fa-tblog"
+  path: categories
+  url: tech-blog
+
 -
-  name: "Archives"
-  path: tabs
-  url: archives
-  icon: "fas fa-archive"
+  name: "Life Blog"
+  icon: "fas fa-lblog"
+  path: categories
+  url: life-blog
+
 -
-  name: "About"
-  icon: "fas fa-info"
-  path: tabs
-  url: about
+  name: "Miscellaneous"
+  icon: "fas fa-miscellaneous"
+  path: categories
+  url: miscellaneous
+
+# -
+  # name: "Publications"
+  # icon: "fas fa-publications"
+  # path: tabs
+  # url: publications
+  
+# -
+  # name: Categories
+  # icon: "fas fa-stream"
+  # path: tabs
+  # url: categories
+# -
+  # name: "Tags"
+  # icon: "fas fa-tags"
+  # path: tabs
+  # url: tags
+  
+# -
+  # name: "Archives"
+  # path: tabs
+  # url: archives
+  # icon: "fas fa-archive"
+

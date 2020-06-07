@@ -9,12 +9,15 @@ layout: page
 
 
 {% assign pinned = site.posts | where_exp: "item", "item.pin == true"  %}
+
 {% assign default = site.posts | where_exp: "item", "item.pin == nil "  %}
+
 {% assign posts = "" | split: "" %}
 
 <!-- Get pinned posts -->
 
 {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
+
 {% assign pinned_num = pinned.size | minus: offset %}
 
 {% if pinned_num > 0 %}
@@ -35,6 +38,7 @@ layout: page
 {% endif %}
 
 {% assign default_num = paginator.posts | size | minus: pinned_num  %}
+
 {% assign default_end = default_beg | plus: default_num | minus: 1 %}
 
 {% if default_num > 0 %}
@@ -43,16 +47,18 @@ layout: page
   {% endfor %}
 {% endif %}
 
+<main>
+<div><img src="assets/img/projects/main/清明上河图（桥）.jpg" id="header-img" width=100%></div>
 
 <div id="post-list">
 
 {% for post in posts %}
 
   <div class="post-preview">
-    <div class="d-flex justify-content-between pr-xl-2">
+    <div class="d-flex justify-content-between align-items-center pr-2">
       <h1><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
       {% if post.pin %}
-        <i class="fas fa-thumbtack fa-fw text-muted fa-sm mt-1 mt-xl-2" data-toggle="tooltip" data-placement="left"
+        <i class="fas fa-thumbtack fa-fw fa-sm text-muted pinned" data-toggle="tooltip" data-placement="top"
         title="Pinned"></i>
       {% endif %}
     </div>
@@ -89,3 +95,9 @@ layout: page
 {% if paginator.total_pages > 0 %}
   {% include post-paginator.html %}
 {% endif %}
+
+</main>
+
+
+
+

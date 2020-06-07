@@ -78,6 +78,8 @@ $sidebar-display: "sidebar-display";
   width: $sidebar-width-medium;
   z-index: 99;
   background: var(--sidebar-bg);
+  text-color: #828282
+  
   a {
     @include sidebar-links;
   }
@@ -85,19 +87,21 @@ $sidebar-display: "sidebar-display";
   .site-title {
     text-align: center;
     a {
-      // color: var(--site-title-color);
+      color: #828282;
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: .5px;
       &:hover {
-        color: #fff;
+        color: black;
         text-decoration: none;
       }
     }
   }
 
   .site-subtitle {
+	font-family: "Times New Roman", Times, serif;
     font-size: 95%;
+	font-style: normal;
     text-align: center;
     color: #828282;
     line-height: 1.2rem;
@@ -115,17 +119,18 @@ $sidebar-display: "sidebar-display";
     font-size: .95rem;
     font-weight: 600;
     letter-spacing: 1px;
+	color: #828282
   }
   .nav-item {
     height: $tab-height;
     &:hover {
       .nav-link {
-        color: #f8f9facf;
+        color: black;
       }
     }
     &.active {
       .nav-link {
-        color: #fcfcfc;
+        color: black;
       }
     }
   }
@@ -182,11 +187,12 @@ $sidebar-display: "sidebar-display";
     font-size: 1.2rem;
     margin: 2rem 2.5rem 1.6rem;
     a {
+	  color: #828282;
       margin-bottom: .5rem; // icons may have multi lines
     }
 
     a:hover, #mode-toggle-wrapper>i:hover {
-      color: #fff;
+      color: black;
     }
 
     #mode-toggle-wrapper {
@@ -197,6 +203,7 @@ $sidebar-display: "sidebar-display";
         text-align: center;
         position: relative;
         bottom: 1px;
+		color: #828282;
       }
     }
 
