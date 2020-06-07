@@ -539,7 +539,9 @@ plt.xlabel('Time')
 |:--:| 
 | *Fig 3. How ridership splited among age groups* |
 
+<main>
 <div><img src="assets/img/projects/main/清明上河图（桥）.jpg" id="header-img" width=100%></div>
+</main>
 
 Clearly, working age people use Citibike the most.
 
