@@ -1,5 +1,5 @@
 ---
-title: Handling Citibike Data
+title: Creating a Github Page
 date: 2020-06-06 16:00:00 -0500
 categories: [Tech Blog, Operation Demo]
 tags: [github page]
@@ -29,9 +29,45 @@ bash tools/run.sh
 5. Open http://localhost:4000/ to see the website.
 
 ## Publish a website on Github
-To publish a website,
+To publish a website using Git commands.
 
-1. Navigate to 
-2. 
-[jekyll-theme-chirpy]: 
+1. Initiate Git:
+```
+git init
+```
+2. Add changes:
+```
+git add .
+```
+3. Commit changes:
+```
+git commit -m "any description of the change"
+```
+4. Connect with the remote repo:
+```
+git remote add origin [url of your repo]
+```
+5. Push to remote:
+```
+git push -u origin master
+```
+6. Open the **Settings** of the repo, in **GitHub Pages** -> **Source** section, select **master branch**.
+7. Wait a few seconds, you will see "Your site is published at https://username.github.io/repo_name/". Click this url, you will see your website is published.
+
+**Special notes for the [jekyll-theme-chirpy]**: 
+Before using git commands, [jekyll-theme-chirpy] needs to build categories and tags, so run this first:
+```
+bash tools/run.sh
+```
+Then you will see a folder '.container'. Copy everything in this folder and replace files in the root directory. Finally, go for git step 1 as shown above.
+
+The author did provide some tools (in /tools) helping to skip this copy-paste step, but they were not working very well in my end, so I choose to just use copy and paste.
+
+[jekyll-theme-chirpy]:(https://github.com/cotes2020/jekyll-theme-chirpy) 
+
+## Other tips
+If permission is needed for the folder:
+```
+sudo chown -R $USER ~/folder_name
+```
 

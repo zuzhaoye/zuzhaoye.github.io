@@ -14,7 +14,7 @@ This blog will demonstrate the following items:
 - Aggregate trip history data by month.
 - Display trip history data based on user type, gender, and age group.
 
-Citibike provides a comprehensive list of trip history data in their [homepage](https://www.citibikenyc.com/system-data). It includes the following columns:
+Citibike provides a comprehensive list of trip history data in their [homepage]. It includes the following columns:
 
 - Trip Duration (seconds)
 - Start Time and Date
@@ -489,7 +489,7 @@ plt.xlabel('Time')
 plt.legend(['all','male','female','unknown'])
 {% endhighlight %}
 
-| ![](/assets/img/projects/citibike/usertype.png){:width="600px"}| 
+| ![](/assets/img/tech-blog/citibike/usertype.png){:width="600px"}| 
 |:--:| 
 | *Fig 1. How ridership splited among subscribers and customers* |
 
@@ -509,7 +509,7 @@ plt.xlabel('Time')
 plt.legend(['all','subscriber','customer'])
 {% endhighlight %}
 
-| ![](/assets/img/projects/citibike/gender.png){:width="600px"}| 
+| ![](/assets/img/tech-blog/citibike/gender.png){:width="600px"}| 
 |:--:| 
 | *Fig 2. How ridership splited among genders* |
 
@@ -531,7 +531,7 @@ plt.ylabel('Ridership')
 plt.xlabel('Time')
 {% endhighlight %}
 
-| ![](/assets/img/projects/citibike/age.png){:width="600px"} | 
+| ![](/assets/img/tech-blog/citibike/age.png){:width="600px"} | 
 |:--:| 
 | *Fig 3. How ridership splited among age groups* |
 
@@ -540,4 +540,4 @@ Clearly, working age people use Citibike the most.
 ## Closing Notes
 Citibike provides a good dataset for research purposes. This blog is intended to show how to process a large amount of CItibike data files and extract useful information.
 
-
+[homepage]:(https://www.citibikenyc.com/system-data)

@@ -130,9 +130,13 @@ layout: default
 
     <div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
+      <!-- {% include post-nav.html %} -->
+
       {% if site.disqus.comments and page.comments %}
         {% include disqus.html %}
       {% endif %}
+
+      <!-- {% include related-posts.html %} -->
 
     </div> <!-- .pl-1 pr-1 -->
 

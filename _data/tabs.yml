@@ -9,12 +9,12 @@
   name: Home
   icon: "fas fa-home"
 
--
-  name: "Resume"
-  icon: "fas fa-resume"
-  path: tabs
-  url: resume
-  
+# -
+  # name: "Resume"
+  # icon: "fas fa-resume"
+  # path: tabs
+  # url: resume
+
 -
   name: "Tech Blog"
   icon: "fas fa-tblog"
@@ -34,6 +34,12 @@
   url: miscellaneous
 
 # -
+  # name: "Archives"
+  # path: tabs
+  # url: archives
+  # icon: "fas fa-archive"
+  
+# -
   # name: "Publications"
   # icon: "fas fa-publications"
   # path: tabs
@@ -50,9 +56,5 @@
   # path: tabs
   # url: tags
   
-# -
-  # name: "Archives"
-  # path: tabs
-  # url: archives
-  # icon: "fas fa-archive"
+
 
