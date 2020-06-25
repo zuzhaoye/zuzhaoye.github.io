@@ -5,7 +5,7 @@ categories: [Tech Blog, Operation Demo]
 tags: [python virtual environment]
 ---
 
-## To create a virtual env
+## To create a virtual environment
 
 Refer to: [How to create a virtual environment using Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
