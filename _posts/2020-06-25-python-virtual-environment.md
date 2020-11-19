@@ -37,6 +37,16 @@ If not assigned a directory, the virtual env can be found in somewhere like this
 C:\Users\your-user-name\Anaconda3\envs
 ```
 
+To assign a specific directory, together with .yml file, do:
+```
+cd 'your desired directory'
+```
+```
+conda env create --prefix ./your-env-name --file environment.yml
+```
+
+Note： Don't forget to put the environment.yml file in your desired directory.
+
 ## To activate, deactivate, and delete a virtual env
 ```
 conda activate myenv
@@ -87,7 +97,7 @@ python -m ipykernel install --user --name=myenv
 
 4. All set. 
 
-    If you haven't create a Jupyter Notebook file, just open Jupyter Notebook and create one and specify the env while creating.
+    If you haven't create a Jupyter Notebook file, just open Jupyter Notebook and create one and specify the env while creating (seems you can not specify another kernel after the creation in jupyter notebook, but such function is supported in vs code).
     ```
     jupyter notebook
     ```
