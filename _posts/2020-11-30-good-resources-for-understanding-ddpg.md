@@ -11,6 +11,5 @@ Video Explanation:
 
 - In English: [https://www.youtube.com/watch?v=oydExwuuUCw](https://www.youtube.com/watch?v=oydExwuuUCw)
 - In Chinese: [https://www.youtube.com/watch?v=3e6pfzux1x0](https://www.youtube.com/watch?v=3e6pfzux1x0)
-Reference Video:[Youtube](https://www.youtube.com/watch?v=qeJUsahqzw8)
 
 
