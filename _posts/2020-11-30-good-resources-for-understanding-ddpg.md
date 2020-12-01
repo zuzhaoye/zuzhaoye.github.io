@@ -7,6 +7,8 @@ tags: [ddpg]
 
 Original Paper: [https://arxiv.org/pdf/1509.02971.pdf](https://arxiv.org/pdf/1509.02971.pdf)
 
+Proof of Deterministic Policy Gradient: [http://proceedings.mlr.press/v32/silver14.pdf](http://proceedings.mlr.press/v32/silver14.pdf)
+
 Video Explanation:
 
 - In English: [https://www.youtube.com/watch?v=oydExwuuUCw](https://www.youtube.com/watch?v=oydExwuuUCw)
